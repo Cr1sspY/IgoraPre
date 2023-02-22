@@ -119,8 +119,6 @@ class Window(QDialog):
     def exit(self):
         self.close()
         auth = Auth()
-        
-        auth.exec()
 		
     def report_service(self):
         s_date = self.ui.start_date.text().split('.')[::-1]
